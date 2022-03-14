@@ -12,7 +12,7 @@ function NetRound = newRound(numRound, packetLength, ctrPacketLength)
 % Ver 1. 10/2014
 
     if ~exist('numRound','var')
-        NetRound.numRound = 9999; % default of the maximum round is 9999
+        NetRound.numRound = 500; % default of the maximum round is 9999
     else
         NetRound.numRound = numRound;
     end

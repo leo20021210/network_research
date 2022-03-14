@@ -10,7 +10,6 @@ nodeArch = newNodes(netArch, numNodes);
 roundArch = newRound();
 
 plot1
-
 par = struct;
 
 for r = 1:roundArch.numRound
